@@ -34,30 +34,6 @@ This project is an AI-powered backend system that extracts structured informatio
 
 ---
 
-## 🧱 AI Architecture Diagram
-
-![AI Architecture Diagram](architecture.png)
-
----
-
-## 🖼 Screenshots
-
-### Resume Extraction View
-
-![Upload and Results](screenshot1.png)
-
-### HR Chatbot in Action
-
-![Chatbot Answer](screenshot2.png)
-
----
-
-## 🎥 Demo Video
-
-📺 [Watch on Google Drive](https://drive.google.com/file/d/18Gyt758KEAC_xfm9M_QmfogRR6CR-6uN/view?usp=sharing)
-
----
-
 ## 🧾 Setup Instructions
 
 1. **Clone the repository**  
@@ -85,6 +61,24 @@ This project is an AI-powered backend system that extracts structured informatio
 
 ---
 
+## 🖼 Screenshots
+
+### Resume Extraction View
+
+![Upload and Results](screenshot1.png)
+
+### HR Chatbot in Action
+
+![Chatbot Answer](screenshot2.png)
+
+---
+
+## 🎥 Demo Video
+
+📺 [Watch on Google Drive](https://drive.google.com/file/d/18Gyt758KEAC_xfm9M_QmfogRR6CR-6uN/view?usp=sharing)
+
+---
+
 ## ❗ Assumptions & Limitations
 
 - Role tags are inferred via LLM prompts
@@ -95,7 +89,12 @@ This project is an AI-powered backend system that extracts structured informatio
 
 ## 🔮 Future Improvements
 
-- Add multilingual support
 - Enhance role tagging logic
 - Integrate real-time memory in chatbot
 - Link with external ATS systems
+
+## 🧱 AI Architecture Diagram
+
+![AI Architecture Diagram](architecture.png)
+
+---
