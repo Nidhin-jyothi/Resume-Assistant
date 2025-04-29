@@ -36,26 +36,7 @@ This project is an AI-powered backend system that extracts structured informatio
 
 ## 🧱 AI Architecture Diagram
 
-![AI Architecture Diagram](https://drive.google.com/uc?id=YOUR_ARCHITECTURE_IMAGE_ID)
-
----
-
-## 📂 Project Structure
-
-├── app.py ├── extract.py ├── chatbot.py ├── database/ ├── temp/ ├── static/ ├── templates/ │ └── index.html ├── .env ├── requirements.txt └── README.md
-
-yaml
-Copy
-Edit
-
----
-
-## 🧪 Sample Questions
-
-1. Who is the most skilled in Python coding?
-2. Rank the candidates for an AI role.
-3. Which candidate has the strongest full-stack development background?
-4. Who has the most leadership experience?
+![AI Architecture Diagram](architecture.png)
 
 ---
 
@@ -63,58 +44,58 @@ Edit
 
 ### Resume Extraction View
 
-![Upload and Results](https://drive.google.com/uc?id=YOUR_SCREENSHOT_ID_1)
+![Upload and Results](screenshot1.png)
 
 ### HR Chatbot in Action
 
-![Chatbot Answer](https://drive.google.com/uc?id=YOUR_SCREENSHOT_ID_2)
+![Chatbot Answer](screenshot2.png)
 
 ---
 
 ## 🎥 Demo Video
 
-📺 [Watch on Google Drive](https://drive.google.com/file/d/YOUR_VIDEO_ID/view?usp=sharing)
+📺 [Watch on Google Drive](https://drive.google.com/file/d/18Gyt758KEAC_xfm9M_QmfogRR6CR-6uN/view?usp=sharing)
 
 ---
 
 ## 🧾 Setup Instructions
 
-1. Clone the repository:
+1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/resume-ai-extractor.git
-   cd resume-ai-extractor
-Install dependencies:
+   git clone https://github.com/yourusername/Resume-Assistant.git
+   ```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Create a .env file:
+2. **Install dependencies**  
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-ini
-Copy
-Edit
-GOOGLE_API_KEY=your_google_gemini_api_key
-Run the server:
+3. **Create a `.env` file**  
+   ```env
+   GOOGLE_API_KEY=your_google_gemini_api_key
+   ```
 
-bash
-Copy
-Edit
-python app.py
-Open http://127.0.0.1:5000 in your browser
+4. **Run the server**  
+   ```bash
+   python app.py
+   ```
 
-❗ Assumptions & Limitations
-Role tags are inferred via LLM prompts
+5. **Open in browser**  
+   Visit: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
-Only PDF/DOCX supported
+---
 
-LLM accuracy depends on resume structure
+## ❗ Assumptions & Limitations
 
-🔮 Future Improvements
-Add multilingual support
+- Role tags are inferred via LLM prompts
+- Only PDF/DOCX supported
+- LLM accuracy depends on resume structure
 
-Enhance role tagging logic
+---
 
-Integrate real-time memory in chatbot
+## 🔮 Future Improvements
 
-Link with external ATS systems
+- Add multilingual support
+- Enhance role tagging logic
+- Integrate real-time memory in chatbot
+- Link with external ATS systems
